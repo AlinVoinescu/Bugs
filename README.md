@@ -109,3 +109,33 @@ User should be able to view the normal page without errors.
 
 ”fdsa”
 
+------------------
+
+**Priority & Severity:**
+
+P3 - Normal
+
+**Description:**
+
+When trying to go to Home - Primaria Techirghiol  and press “Info-Turism-Cazare” Button and there are broken links.
+
+**Steps to reproduce:**
+
+1.Go to Home - Primaria Techirghiol 
+2.Press “Home” button
+3.Press “Info tursim” button
+4.Press “Cazare” button
+5.Select a link
+
+**Expected result:**
+
+User should be redirected to a correct page.
+
+**Actual result:**
+
+404 error apeear.
+
+**Test data:**
+
+Pensiunea Marea Neagra link,
+Vila Bella link
