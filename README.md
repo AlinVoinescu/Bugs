@@ -4,138 +4,109 @@ Below are some Bug Samples that I wrote while I working on previous project.
 
 ------------------
 
-**Priority & Severity:**
-
+**Priority & Severity:**<br>
 P2 - High
 
-**Description:**
-
+**Description:**<br>
 When trying to login with correct credentials, nothing happens. The user is not logged in and no error message is displayed.
 
-**Steps to reproduce:**
-
-1.Go to www.website.com/login
+**Steps to reproduce:**<br>
+1.Go to www.website.com/login<br>
 2.Add a correct user/pass
 
-**Expected result:**
-
+**Expected result:**<br>
 User should be able to login and is taken to his profile page.
 
-**Actual result:**
-
+**Actual result:**<br>
 User is not logged and no error appears.
 
 **Test data:**
-
 User:alin & Pass:123456
 
 ------------------
 
-**Priority & Severity:**
-
+**Priority & Severity:**<br>
 P1 - Critical
 
-**Description:**
-
+**Description:**<br>
 When trying to log in on XYZ Bank , no password is required for any account.
 
-**Steps to reproduce:**
-
+**Steps to reproduce:**<br>
 1.Go to XYZ Bank  
-2.Select an account
+2.Select an account<br>
 3.Try to log in
 
-**Expected result:**
-
+**Expected result:**<br>
 User should be able to log in with user and password.
 
-**Actual result:**
-
+**Actual result:**<br>
 No password is required.
 
-**Test data:**
-
+**Test data:**<br>
 ”Harry Potter”
 
 ------------------
 
-**Priority & Severity:**
-
+**Priority & Severity:**<br>
 P1 - Critical
 
-**Description:**
-
+**Description:**<br>
 When trying to go to OWASP Juice Shop and I want to pay with a credit card, the expiry year of my credit card start from 2080.
 
-**Steps to reproduce:**
-
-1.Go to OWASP Juice Shop 
-2.Select “Add to cart” for some products
-3.Select “Pay with Credit Card”
+**Steps to reproduce:**<br>
+1.Go to OWASP Juice Shop<br> 
+2.Select “Add to cart” for some products<br>
+3.Select “Pay with Credit Card”<br>
 4.Complete “Credit Card” fields 
 
-**Expected result:**
-
+**Expected result:**<br>
 The app should show the expiry year start from 2022.
 
-**Actual result:**
-
+**Actual result:**<br>
 The app show the expiry year start from 2080.
 
 ------------------
 
-**Priority & Severity:**
-
+**Priority & Severity:**<br>
 P3 - Normal
 
-**Description:**
-
+**Description:**<br>
 When trying to go to www.demoblaze.com/ and write few different letters after the “/” , error 404 message is displayed.
 
-**Steps to reproduce:**
-
-1.Go to www.demoblaze.com/ 
+**Steps to reproduce:**<br>
+1.Go to www.demoblaze.com/<br> 
 2.Type 4 different letters after the “/”
 
-**Expected result:**
-
+**Expected result:**<br>
 User should be able to view the normal page without errors.
 
-**Actual result:**
-
+**Actual result:**<br>
 404 error page appears.
 
-**Test data:**
-
+**Test data:**<br>
 ”fdsa”
 
 ------------------
 
-**Priority & Severity:**
-
+**Priority & Severity:**<br>
 P3 - Normal
 
-**Description:**
-
+**Description:**<br>
 When trying to go to Home - Primaria Techirghiol  and press “Info-Turism-Cazare” Button and there are broken links.
 
-**Steps to reproduce:**
-
-1.Go to Home - Primaria Techirghiol 
-2.Press “Home” button
-3.Press “Info tursim” button
-4.Press “Cazare” button
+**Steps to reproduce:**<br>
+1.Go to Home - Primaria Techirghiol<br> 
+2.Press “Home” button<br>
+3.Press “Info tursim” button<br>
+4.Press “Cazare” button<br>
 5.Select a link
 
-**Expected result:**
-
+**Expected result:**<br>
 User should be redirected to a correct page.
 
-**Actual result:**
-
+**Actual result:**<br>
 404 error apeear.
 
-**Test data:**
-
-Pensiunea Marea Neagra link,
-Vila Bella link
+**Test data:**<br>
+"Pensiunea Marea Neagra link"<br>
+"Vila Bella link"
